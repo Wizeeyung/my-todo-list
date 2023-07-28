@@ -54,13 +54,13 @@ form button{
   border: none;
   outline: none;
   color: white;
-  background-color: rgb(44, 44, 131);
+  background-color:  rgb(22, 136, 158);
   font-weight: bold;
   cursor: pointer;
 }
 
 form button:hover{
-  background-color: rgb(72, 72, 152);;
+  background-color: rgb(72, 72, 152);
 }
 
 .todos{
@@ -114,13 +114,18 @@ svg{
 
 /* ...........mobile responsiveness............. */
 @media all and (max-width: 400px) {
+
+  body{
+    touch-action: manipulation;
+    user-zoom: none;
+  }
   .container{
     width: 300px;
   }
 
   form button{
     width: 30%;
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .h-container h1{
